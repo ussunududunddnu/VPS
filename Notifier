@@ -1,0 +1,5 @@
+getgenv().configTable = {
+    discordID = "630012709932498946",
+    webhookURL = "https://discord.com/api/webhooks/1245065710774780008/FM-be6QQKqhRFM6qlGebzVntkfVCeSRf2De3B1P8yKBGhqMCpfw4p3EwOG6obzgNazkh",
+}
+spawn(loadstring(game:HttpGet("https://raw.githubusercontent.com/l0nebyte/temp/main/hugenotifier")))
