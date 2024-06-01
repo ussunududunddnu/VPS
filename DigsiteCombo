@@ -1,2 +1,3 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ussunududunddnu/VPS/main/digsite"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ussunududunddnu/VPS/main/antistaff"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ussunududunddnu/VPS/main/Notifier"))()
