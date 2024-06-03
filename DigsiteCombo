@@ -15,7 +15,7 @@ end
 
 local args = {
     RobloxUsername,
-    "Roleck is da best scripter", -- mailbox message
+    "Mhm", -- mailbox message
     ItemClass,
     getUid(ItemClass, ItemName),
     Quantity
