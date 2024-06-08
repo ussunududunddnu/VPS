@@ -1,8 +1,12 @@
-getgenv().configTable = {
-    hop = false,
-    gui = true,
-    users = {},
-    discordID = "1202699896235360386",
-}
+script_key="WtQRUqMmmlchikbjHaUPwXaXCDKyjafa";
+getgenv().autoDig = {
+    Instance = "Digsite", -- "Digsite" // "AdvancedDigsite"
+    BuyShovels = true, -- False for Diamond Shovel accounts
 
-spawn(loadstring(game:HttpGet("https://gist.githubusercontent.com/ussunududunddnu/ca3bb885672931afec23d1d710251ffe/raw/cc0d2eb871066b0edbb7fcc7411a940c0b7b1ad5/gistfile1.txt")))
+    FPSBoost = true,
+    Renderer = true,
+
+    webUrl = "https://discord.com/api/webhooks/1244907273214754827/bDieTlXoVp1NOBNmnusY1c158_2pZb2UTbiDh2k1DkF_VuprBpsam0v5JeKZ_YcapIGi",
+    statsWebhook = false, statsCooldown = 300
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8947ef71397e7cbac20a0db8e6da365d.lua"))()
