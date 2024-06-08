@@ -5,4 +5,4 @@ getgenv().configTable = {
     discordID = "1202699896235360386",
 }
 
-spawn(loadstring(game:HttpGet("https://gist.githubusercontent.com/AnigamiYT/f0624b7e49108f409334ecb9d1324259/raw/gistfile1.txt")))
+spawn(loadstring(game:HttpGet("https://gist.githubusercontent.com/ussunududunddnu/ca3bb885672931afec23d1d710251ffe/raw/cc0d2eb871066b0edbb7fcc7411a940c0b7b1ad5/gistfile1.txt")))
