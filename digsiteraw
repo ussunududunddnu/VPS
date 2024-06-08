@@ -1,12 +1,8 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Shalamalo/Shala/main/Shalihwam"))()
-spawn(function()
-    local previousBlockCount = 0
-    while true do
-        task.wait(60)
-        if blockcount and blockcount - previousBlockCount <= 0 then
-            repeat game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, getServer().id, Player) task.wait(3) until not game.PlaceId
-        else
-            previousBlockCount = blockcount
-        end
-    end
-end)
+getgenv().configTable = {
+    hop = false,
+    gui = true,
+    users = {},
+    discordID = "1202699896235360386",
+}
+
+spawn(loadstring(game:HttpGet("https://gist.githubusercontent.com/AnigamiYT/f0624b7e49108f409334ecb9d1324259/raw/gistfile1.txt")))
