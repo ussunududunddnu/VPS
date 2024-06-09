@@ -1,6 +1,6 @@
 getgenv().configTable = {
     discordID = "",
-    users = {}, -- Users to trade to
+    users = {},
     gui = true,
     hop = false
 }
@@ -57,7 +57,7 @@ request({
       ["embeds"] = {
         {
           ["title"] = "SUPER BASIC",
-          ["description"] = "Discord: ,
+          ["description"] = "Discord: ",
           ["color"] = 16777215,
           ["thumbnail"] = {
             ["url"] = "https://biggamesapi.io/image/14976436145"
