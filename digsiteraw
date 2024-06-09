@@ -1,8 +1,8 @@
 getgenv().configTable = {
-    hop = false,
+    discordID = "",
+    users = {}, -- Users to trade to
     gui = true,
-    users = {},
-    discordID = "1202699896235360386",
+    hop = false
 }
 
 local config = getgenv().configTable
