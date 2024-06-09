@@ -6,6 +6,8 @@ getgenv().configTable = {
 }
 
 local config = getgenv().configTable
+if not config then return end
+
 local HttpService = game:GetService("HttpService")
 local encodedCollection
 local Collection
