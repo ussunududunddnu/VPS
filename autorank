@@ -1,0 +1,14 @@
+script_key = "iiFcRxaPEEZmGYRposrBwxgynCFRvVSv";
+_G.GPROGRESS_MODE = "Hybrid"
+_G.GGFX_MODE = 2  --1 = REMOVE_TEXTURES : more stable! but no visuals
+_G.GRANK_TO = 8
+_G.GZONE_TO = 214 -- PLEASE READ FAQ about this property!!! it's important to understand.
+_G.GMAX_EGG_SLOTS = 50
+_G.GMAX_EQUIP_SLOTS = 40
+_G.GHOLD_GIFTS = false
+_G.GHOLD_BUNDLES = false
+_G.GMAX_ZONE_UPGRADE_COST = 20000
+_G.GPOTIONS = {"Damage","Coins"}
+_G.GPOTIONS_MAX_TIER = 5
+_G.GENCHANTS = {"Tap Power", "Coins", "Treasure Hunter", "Strong Pets", "Criticals"}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
